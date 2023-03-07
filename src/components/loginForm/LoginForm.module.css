@@ -1,0 +1,9 @@
+.customBtn {
+  background-color: var(--accentColor);
+}
+.pClr {
+  color: var(--accentColor);
+}
+.chkBox:checked {
+  background-color: var(--accentColor) !important;
+}

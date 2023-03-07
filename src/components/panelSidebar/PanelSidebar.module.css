@@ -1,0 +1,50 @@
+.sidebar {
+  height: 100vh;
+  background-color: var(--primaryColor);
+}
+.sidebar a {
+  color: white;
+  transition: all 100ms ease;
+}
+.sidebar a:active {
+  color: var(--accentColor);
+}
+.sidebar a:hover {
+  color: #ffffffaa;
+}
+.sidebar a:link {
+  color: #ffffff;
+}
+
+.sidebar a:visited {
+  color: #ffffff;
+}
+.active {
+  font-weight: 700;
+  color: var(--accentColor) !important;
+}
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #ffffff8a;
+}
+.search input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+.search input::placeholder {
+  color: #ffffffaa;
+}
+.logo {
+  margin-bottom: 1em;
+  color: #fff;
+  text-align: center;
+}

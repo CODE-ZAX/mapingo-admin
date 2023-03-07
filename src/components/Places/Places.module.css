@@ -1,0 +1,66 @@
+.activePlaces {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 350px;
+  padding: 10px;
+}
+.activePlaces::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+.activePlaces::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(187, 187, 187);
+  border-radius: 10px;
+}
+
+/* Handle */
+.activePlaces::-webkit-scrollbar-thumb {
+  transition: all 250ms ease;
+  background: var(--accentColor);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.activePlaces::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(var(--accentColor), var(--accentColorLight));
+}
+.ticketHolder {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ticket {
+  position: relative;
+  background-color: var(--primaryColor);
+  width: 100%;
+
+  margin-bottom: 10px;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.ticketDetails {
+  padding: 10px 10px 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ticketImage {
+}
+.ticketImage img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  height: 200px;
+
+  object-fit: cover;
+  object-position: center;
+}
+@media only screen and (min-width: 1650px) {
+  .ticket {
+    width: 500px;
+    height: auto;
+  }
+}
