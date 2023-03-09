@@ -1,0 +1,12 @@
+.main {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.mtext {
+  font-weight: 700;
+  color: var(--accentColor);
+}
+.thead th {
+  background-color: var(--primaryColor) !important;
+}

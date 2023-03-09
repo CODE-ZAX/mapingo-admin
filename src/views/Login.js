@@ -4,7 +4,7 @@ import classes from "./Login.module.css";
 const Login = () => {
   const { main } = classes;
   return (
-    <div className={main}>
+    <div className={"container " + main}>
       <LoginForm />
     </div>
   );

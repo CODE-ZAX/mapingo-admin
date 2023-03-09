@@ -13,6 +13,27 @@ const DataProvider = ({ children }) => {
     accentColorLight: "#4f63a7",
   };
 
+  const logs = [
+    { lid: 0, date: Date(), message: "success login to system!" },
+    { lid: 1, date: Date(), message: "faliure login to system!" },
+    { lid: 2, date: Date(), message: "faliure login to system!" },
+    { lid: 3, date: Date(), message: "success login to system!" },
+    { lid: 4, date: Date(), message: "success login to system!" },
+    { lid: 5, date: Date(), message: "warning login to system!" },
+    { lid: 6, date: Date(), message: "warning login to system!" },
+    { lid: 7, date: Date(), message: "success login to system!" },
+    { lid: 8, date: Date(), message: "fatal login to system!" },
+    { lid: 9, date: Date(), message: "fatal login to system!" },
+    { lid: 10, date: Date(), message: "success login to system!" },
+    { lid: 11, date: Date(), message: "success login to system!" },
+    { lid: 12, date: Date(), message: "faliure login to system!" },
+    { lid: 13, date: Date(), message: "faliure login to system!" },
+    { lid: 14, date: Date(), message: "success login to system!" },
+    { lid: 15, date: Date(), message: "success login to system!" },
+    { lid: 16, date: Date(), message: "warning login to system!" },
+    { lid: 17, date: Date(), message: "warning login to system!" },
+  ];
+
   function siRound(x) {
     if (x < 1e3) return x + "";
     const digits = Math.log10(x) | 0;
@@ -184,7 +205,7 @@ const DataProvider = ({ children }) => {
   ];
 
   return (
-    <DataContext.Provider value={{ places, tableData, Colors }}>
+    <DataContext.Provider value={{ logs, places, tableData, Colors }}>
       {children}
     </DataContext.Provider>
   );
