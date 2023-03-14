@@ -6,12 +6,8 @@ import classes from "./Dashboard.module.css";
 import Tickets from "../components/Places/Places";
 import CountUp from "react-countup";
 
-import {
-  FaUserAlt,
-  FaUserCheck,
-  FaMapMarkedAlt,
-  FaDollarSign,
-} from "react-icons/fa";
+import { FaUserAlt, FaUserCheck, FaUserMinus } from "react-icons/fa";
+import { BiNotification } from "react-icons/bi";
 import Table from "../components/dashboardCharts/Table";
 import { useData } from "../context/DataContext";
 
@@ -40,20 +36,20 @@ const Dashboard = () => {
               <h5>Active Users</h5>
             </div>
             <div className={classes.bg + " p-2 " + classes.statsHolder}>
-              <FaMapMarkedAlt size={28} />
+              <FaUserMinus size={28} />
               <div>
                 <CountUp end={32} />
                 <span>K+</span>
               </div>
-              <h5>Places</h5>
+              <h5>Uninstalled</h5>
             </div>
             <div className={classes.bg + " p-2 " + classes.statsHolder}>
-              <FaDollarSign size={28} />
+              <BiNotification size={28} />
               <div>
                 <CountUp end={20} />
                 <span>M+</span>
               </div>
-              <h5>Revenue</h5>
+              <h5>PN Enabled Users</h5>
             </div>
           </div>
         </div>

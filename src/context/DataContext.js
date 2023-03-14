@@ -102,6 +102,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -113,6 +116,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -124,6 +130,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -135,6 +144,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -146,6 +158,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -157,6 +172,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -168,6 +186,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -179,6 +200,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -190,6 +214,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
     {
       uid: "asdasd2313dsad",
@@ -201,6 +228,9 @@ const DataProvider = ({ children }) => {
       phoneNo: "+923235235327",
       joinDate: "12 March, 2023",
       email: "zax@gmail.com",
+      pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
+      invitations: 25,
+      isNotify: true,
     },
   ];
 

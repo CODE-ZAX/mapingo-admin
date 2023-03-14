@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./UserTable.module.css";
-const UserTable = ({ data }) => {
+const UserTable = ({ data, show, user, setShow, setUser }) => {
   return (
     <div className="container ">
       <div className="table-responsive ">
@@ -20,7 +20,12 @@ const UserTable = ({ data }) => {
           </thead>
           <tbody>
             {data.map((item, index) => (
-              <tr>
+              <tr
+                onClick={() => {
+                  setUser(item);
+                  setShow(true);
+                }}
+              >
                 <th scope="row">{index + 1}</th>
                 <td>{item.fname}</td>
                 <td>{item.lname}</td>

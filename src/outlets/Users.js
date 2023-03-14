@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import UserTable from "../components/usersTable/UserTable";
 import classes from "./Users.module.css";
 import { MdEmail } from "react-icons/md";
 import { FaUserAlt } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 import { useData } from "../context/DataContext";
+import UsersModal from "../utils/UserModal";
 const Users = () => {
   const { tableData } = useData();
+  const [user, setUser] = useState(null);
+  const [show, setShow] = useState(false);
   return (
     <div className="container p-3">
+      <UsersModal user={user} show={show} setShow={setShow} />
       <h4>
         <strong className={classes.mainText}>Users</strong>
       </h4>
@@ -52,7 +56,13 @@ const Users = () => {
           <button className={"btn " + classes.btnCustom}>Clear</button>
         </div>
       </nav>
-      <UserTable data={tableData} />
+      <UserTable
+        data={tableData}
+        user={user}
+        setUser={setUser}
+        show={show}
+        setShow={setShow}
+      />
       <nav
         className={
           "d-flex align-items-center justify-content-center " + classes.page
