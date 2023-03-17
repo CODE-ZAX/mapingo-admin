@@ -14,24 +14,24 @@ const DataProvider = ({ children }) => {
   };
 
   const logs = [
-    { lid: 0, date: Date(), message: "success login to system!" },
-    { lid: 1, date: Date(), message: "faliure login to system!" },
-    { lid: 2, date: Date(), message: "faliure login to system!" },
-    { lid: 3, date: Date(), message: "success login to system!" },
-    { lid: 4, date: Date(), message: "success login to system!" },
-    { lid: 5, date: Date(), message: "warning login to system!" },
-    { lid: 6, date: Date(), message: "warning login to system!" },
-    { lid: 7, date: Date(), message: "success login to system!" },
-    { lid: 8, date: Date(), message: "fatal login to system!" },
-    { lid: 9, date: Date(), message: "fatal login to system!" },
-    { lid: 10, date: Date(), message: "success login to system!" },
-    { lid: 11, date: Date(), message: "success login to system!" },
-    { lid: 12, date: Date(), message: "faliure login to system!" },
-    { lid: 13, date: Date(), message: "faliure login to system!" },
-    { lid: 14, date: Date(), message: "success login to system!" },
-    { lid: 15, date: Date(), message: "success login to system!" },
-    { lid: 16, date: Date(), message: "warning login to system!" },
-    { lid: 17, date: Date(), message: "warning login to system!" },
+    { lid: 0, uid: "12", date: Date(), message: "success login to system!" },
+    { lid: 1, uid: "12", date: Date(), message: "faliure login to system!" },
+    { lid: 2, uid: "12", date: Date(), message: "faliure login to system!" },
+    { lid: 3, uid: "12", date: Date(), message: "success login to system!" },
+    { lid: 4, uid: "12", date: Date(), message: "success login to system!" },
+    { lid: 5, uid: "12", date: Date(), message: "warning login to system!" },
+    { lid: 6, uid: "12", date: Date(), message: "warning login to system!" },
+    { lid: 7, uid: "12", date: Date(), message: "success login to system!" },
+    { lid: 8, uid: "12", date: Date(), message: "fatal login to system!" },
+    { lid: 9, uid: "12", date: Date(), message: "fatal login to system!" },
+    { lid: 10, uid: "15", date: Date(), message: "success login to system!" },
+    { lid: 11, uid: "15", date: Date(), message: "success login to system!" },
+    { lid: 12, uid: "15", date: Date(), message: "faliure login to system!" },
+    { lid: 13, uid: "15", date: Date(), message: "faliure login to system!" },
+    { lid: 14, uid: "15", date: Date(), message: "success login to system!" },
+    { lid: 15, uid: "15", date: Date(), message: "success login to system!" },
+    { lid: 16, uid: "15", date: Date(), message: "warning login to system!" },
+    { lid: 17, uid: "15", date: Date(), message: "warning login to system!" },
   ];
 
   function siRound(x) {
@@ -105,6 +105,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -119,6 +120,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -133,6 +135,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -147,6 +150,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -161,6 +165,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -175,6 +180,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -189,6 +195,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -203,6 +210,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
     {
       uid: "asdasd2313dsad",
@@ -217,6 +225,7 @@ const DataProvider = ({ children }) => {
       pinnedLocations: ["Muzaffarabad", "Kashmir Tea Point", "Saudia", "Japan"],
       invitations: 25,
       isNotify: true,
+      noOfLogins: 68,
     },
   ];
 

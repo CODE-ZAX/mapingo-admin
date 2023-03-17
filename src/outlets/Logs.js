@@ -23,6 +23,7 @@ const Logs = () => {
         <Table striped bordered hover>
           <thead className={"table-dark " + classes.thead}>
             <tr>
+              <th>uid</th>
               <th>Date</th>
               <th>Message</th>
             </tr>
@@ -30,6 +31,7 @@ const Logs = () => {
           <tbody>
             {currentLogs.map((log) => (
               <tr key={log.lid}>
+                <td>{log.uid}</td>
                 <td>{log.date}</td>
                 <td>{log.message}</td>
               </tr>

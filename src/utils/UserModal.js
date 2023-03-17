@@ -24,6 +24,9 @@ function UsersModal({ show, setShow, user }) {
           <strong>Last Login:</strong>
         </p>
         <p>
+          <strong>No of Logins</strong> <span>{user.noOfLogins}</span>
+        </p>
+        <p>
           <strong>Invitations</strong> <span>{user.invitations}</span>
         </p>
         <p>
